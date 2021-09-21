@@ -1,1 +1,1 @@
-eval(require('fs').readFileSync('index.html').toString().replace('<script', '// <script').replace('\n</script>', '\n// </script>').replace('document.write(', 'require(\'fs\').writeFileSync(\'decoded.html\', '));
+eval(require("fs").readFileSync("index.html").toString().replace("<script","// <script").replace("\n<\/script>","\n// <\/script>").replace("document.write(","require('fs').writeFileSync('decoded.html', "));
